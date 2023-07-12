@@ -1,0 +1,23 @@
+.btn {
+    padding: 16px 56px;
+    font-family: var(--main_font);
+    font-size: 20px;    
+    font-weight: 700;
+    line-height: 28px;
+    border-radius: 56px;
+    border: 2px solid transparent;
+    display: inline-block;
+}
+.btn-outine {
+    background-color: transparent;
+    border: 2px solid var(--white);
+}
+.btn-solid-green {
+    border: 2px solid #69E6A6;
+    background-color: #69E6A6;
+    color: var(--dark_blue);
+}
+.btn-solid-black {
+    background-color: var(--dark_blue);
+    color: var(--white);
+}
