@@ -1,0 +1,132 @@
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+}
+
+.header__logo-blck span {
+    color: var(--dark-blue);
+    font-family: var(--title_font);
+    font-size: 43.25px;
+    font-weight: 700;
+    line-height: 33.639px;
+}
+
+.header__navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    color: var(--dark_blue);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.header__navbar-btn {
+    color: var(--dark_blue);
+    padding: 8px 40px;
+    border-radius: 24px;
+    border: 2px solid var(--dark_blue);
+    background: #FFF;
+    cursor: pointer;
+    font-weight: 700; 
+    display: block; 
+}
+
+
+.anotherBlog__inner {
+    border-bottom: 1px solid var(--dark_blue);
+    padding-bottom: 72px;
+}
+.anotherBlog__titles {
+    text-align: center;
+    margin-bottom: 28px;
+}
+.anotherBlog__subtitle {
+    display: block;
+    padding-top: 73px;
+    margin-bottom: 12px;
+    line-height: 32px;
+    color: var(--dark_blue);
+}
+.anotherBlog__title {
+    color: var(--dark_blue);
+    padding-bottom: 40px;
+}
+
+.anotherBlog__text {
+}
+.anotherBlog__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.anotherBlog__content-img {
+}
+.anotherBlog__box {
+    max-width: 543px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.anotherBlog__box-title {
+    color: var(--dark_blue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    display: inline-block;
+}
+.anotherBlog__box-date {
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.anotherBlog__box-text {
+    color: var(--black);
+    font-family: var(--dark_blue);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+}
+.anotherBlog__box-bottom {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.anotherBlog__box-name {
+    color: var(--black);
+    font-size: 16px;
+    line-height: 28px;
+}
+.news {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 96px;
+    margin-bottom: 124px;
+}
+.news__title {
+    margin-bottom: 40px;
+}
+
+.news__items {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    gap: 80px 50px;
+}
+
+.news > .container > div:last-child  {
+    text-align: center;
+}
+
+
+.news__btn {
+    margin-top: 84px;
+    color: var(--dark_blue);
+    border: 2px solid ;
+}

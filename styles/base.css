@@ -32,7 +32,7 @@ time, mark, audio, video {
 }
 
 body {
-    line-height:1;
+    line-height:32px;
     font-size: var(--font_size-m);
     font-family: var(--main_font);
     color: var(--black);

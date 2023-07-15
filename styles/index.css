@@ -27,7 +27,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    color: #fff; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
 }
 
 .header__btn {
@@ -73,7 +76,7 @@
 .top__graphics img{
     position: absolute;
     right: 0;
-    top: -4px;
+    top: 1px;
 }
 
 .top__logos {
@@ -96,6 +99,7 @@
 }
 .services__title {
     max-width: 842px;
+    width: 100%;
     margin: 0 auto;
     color: #000;
     font-family: var(--title_font);
@@ -478,6 +482,50 @@
     font-weight: 400;
     line-height: 32px;
 }
+
+/* News */
+
+.news__box {
+}
+
+.news__box-title {
+    display: inline-block;
+    color: var(--dark_blue);
+    padding: 24px 0 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.news__box-date {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray);
+    padding-left: 10px;
+}
+
+.news__box-text {
+    padding-bottom: 20px;
+    color: var(--black);
+}
+
+.news__box-bottom {
+    display: flex;
+    gap: 12px;
+    color: var(--black);
+}
+
+.news__box-name {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.news__btn {
+    background-color: transparent;
+    border: 2px solid var(--dark_blue);
+}
+
+/* Footer */
 
 .footer {
     padding-top: 100px;
